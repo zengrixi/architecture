@@ -1,0 +1,35 @@
+解决windows移植到linux代码中的乱码问题:
+使用linux下的iconv 命令改变文件的编码：
+test1.m由GB2312转换成UTF-8（windows下matlab的代码在linux下运行）
+iconv -f GB2312 -t UTF-8 client.cpp -o client.cpp
+
+下载GitHub上的工程
+git clone https://github.com/zengrixi/HelloSocket
+
+查看运行的进程
+ps -ef | grep bash
+结束进程
+kill
+
+文件查看
+cat
+
+进程跟踪
+sudo strace -e trace= signal -p 1359
+
+更新软件包
+sudo apt-get install updata
+
+//添加全部
+git add .
+git add .-f // 强制添加被git忽略的文件
+
+//提交全部
+git commit -m '更新日志'
+
+//提交到服务器
+git push origin master
+
+//docker命令
+	重启程序
+	docker restart 进程名
