@@ -1,5 +1,4 @@
-﻿//和处理系统配置文件相关的放这里
-
+﻿
 //系统头文件放上边
 #include <stdio.h>
 #include <stdlib.h>

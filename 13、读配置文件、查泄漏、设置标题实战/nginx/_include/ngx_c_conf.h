@@ -40,7 +40,7 @@ public:
 		{
 			if (CConfig::m_instance)
 			{						
-				delete CConfig::m_instance;				
+				delete CConfig::m_instance;
 				CConfig::m_instance = NULL;				
 			}
 		}

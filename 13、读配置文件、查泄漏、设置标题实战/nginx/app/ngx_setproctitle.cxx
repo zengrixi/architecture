@@ -1,5 +1,4 @@
-﻿//和设置课执行程序标题（名称）相关的放这里 
-
+﻿
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>  //env
@@ -69,6 +68,6 @@ void ngx_setproctitle(const char *title)
 
     //(5)把剩余的原argv以及environ所占的内存全部清0，否则会出现在ps的cmd列可能还会残余一些没有被覆盖的内容；
     size_t cha = esy - ititlelen;  //内存总和减去标题字符串长度(不含字符串末尾的\0)，剩余的大小，就是要memset的；
-    memset(ptmp,0,cha);
+    memset(ptmp,0,cha);  
     return;
 }

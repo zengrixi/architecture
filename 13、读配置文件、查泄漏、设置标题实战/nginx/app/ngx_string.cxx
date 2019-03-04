@@ -1,7 +1,8 @@
 ﻿
-//一些和字符串处理相关的函数，放这里
 #include <stdio.h>
 #include <string.h>
+
+//一些和字符串处理相关的函数，准备放这里
 
 //截取字符串尾部空格
 void Rtrim(char *string)   
