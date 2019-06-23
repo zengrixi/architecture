@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCApplication4", "MFCApplication4\MFCApplication4.vcxproj", "{8F710507-4CED-40CB-B92C-D7B91916B028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Debug|x64.ActiveCfg = Debug|x64
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Debug|x64.Build.0 = Debug|x64
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Debug|x86.Build.0 = Debug|Win32
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Release|x64.ActiveCfg = Release|x64
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Release|x64.Build.0 = Release|x64
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Release|x86.ActiveCfg = Release|Win32
+		{8F710507-4CED-40CB-B92C-D7B91916B028}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD7FBD0B-0AE6-408F-98B6-0A4600301C0E}
+	EndGlobalSection
+EndGlobal
